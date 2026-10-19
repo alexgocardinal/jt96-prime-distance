@@ -1,0 +1,11 @@
+name = "JT96"
+version = "0.1.0"
+defaultTargets = ["JT96"]
+
+[[lean_lib]]
+name = "JT96"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.19.0"
